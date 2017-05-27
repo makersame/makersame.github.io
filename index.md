@@ -191,23 +191,30 @@ Você também pode achar cores interessantes no [Coolors](https://coolors.co/) o
 ### [](#header-3)Extra - Onde encontrar boas imagens grátis:
 - [Pexels](http://www.pexels.com)
 
-6. FONTAWESOME
+6. Icones em forma de fonte: FONTAWESOME
 
-In your head, it's in your head!
+1. Adicione ao Head o link para o Fontawesome
 
+```html
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
-And then in the footer
+```
 
+2. E então adicione os icones ao Footer
+
+```html
 <ul>
   <li><a href="#"><i class="fa fa-youtube"></i></a></li>
   <li><a href="#"><i class="fa fa-facebook"></i></a></li>
   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
   <li><a href="#"><i class="fa fa-github"></i></a></li>
 </ul>
-With a bit of CSS style
+```
 
+3. Com um pouco mais de CSS, o conteúdo ficará mais bonito
+
+```css
 #footer a {
   color: lightgrey;
   font-size: 15px;
@@ -215,21 +222,24 @@ With a bit of CSS style
 #footer a:hover {
   color: white;
 }
+```
 
 ## [](#header-2)Adicionando BOOTSTRAP
 
 1. Faça o link da stylesheet do Bootstrap no head section de seu HTML antes do link para o **style.css**
-
+```html
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link href='style.css' rel='stylesheet'>
 </head>
+```
 
 2. Brinque com as classes do bootstrap: class="btn btn-primary" e class="list-inline" aplicando a chamada de ação e os icones do footer
 
 ## [](#header-2)Utilizando o GRID do Bootstrap
 
 1. Utilize a estrutura abaixo e inclua os cards das funcionalidades do seu produto dentro das div's
+```html
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-3">
@@ -246,3 +256,4 @@ With a bit of CSS style
     </div>
   </div>
 </div>
+```
