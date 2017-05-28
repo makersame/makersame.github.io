@@ -70,6 +70,7 @@ Fique ligado também nas novidades em: [Product Hunt](https://www.producthunt.co
   <link href='style.css' rel='stylesheet'>
 </head>
 ```
+
 2. Após fazer o link copie e cole o código abaixo em seu **style.css**
 
 ```css
@@ -100,6 +101,7 @@ a:hover {
   color: purple;
 }
 ```
+
 ### [](#header-3)Extra - Onde encontrar boas fontes e paletas de cores:
 - [Google Fonts](http://fonts.google.com) (para fontes)
 - [Colorzilla](http://www.colorzilla.com/chrome/) para pegar cores de outros sites
@@ -188,6 +190,7 @@ Você também pode achar cores interessantes no [Coolors](https://coolors.co/) o
   font-weight: lighter;
 }
 ```
+
 ### [](#header-3)Extra - Onde encontrar boas imagens grátis:
 - [Pexels](http://www.pexels.com)
 
@@ -227,6 +230,7 @@ Você também pode achar cores interessantes no [Coolors](https://coolors.co/) o
 ## [](#header-2)Adicionando BOOTSTRAP
 
 1. Faça o link da stylesheet do Bootstrap no head section de seu HTML antes do link para o **style.css**
+
 ```html
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -239,6 +243,7 @@ Você também pode achar cores interessantes no [Coolors](https://coolors.co/) o
 ## [](#header-2)Utilizando o GRID do Bootstrap
 
 1. Utilize a estrutura abaixo e inclua os cards das funcionalidades do seu produto dentro das div's
+
 ```html
 <div class="container">
   <div class="row">
